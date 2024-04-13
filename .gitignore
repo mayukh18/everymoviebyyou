@@ -1,0 +1,6 @@
+.vscode
+.idea
+__pycache__
+ml-25m/*
+movie_data_dir
+movie_ids_*.json
