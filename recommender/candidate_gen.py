@@ -79,5 +79,5 @@ class CandidateGeneration:
         
 
 if __name__ == "__main__":
-    cg = CandidateGeneration("ml-25m/movies_data_v2.csv")
+    cg = CandidateGeneration("data/movies_data_v2.csv")
     print(cg.get_similar_candidates(567))

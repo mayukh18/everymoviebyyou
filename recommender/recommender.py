@@ -4,8 +4,8 @@ import random
 from collections import Counter
 from recommender.candidate_gen import CandidateGeneration
 
-movies_df = pd.read_csv("ml-25m/movies_data_v2.csv")
-cg = CandidateGeneration("ml-25m/movies_data_v2.csv")
+movies_df = pd.read_csv("data/movies_data_v2.csv")
+cg = CandidateGeneration("data/movies_data_v2.csv")
 
 def get_popular_movies():
     genres_set = Counter(movies_df['genres']).most_common(20)
