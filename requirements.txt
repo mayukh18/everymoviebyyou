@@ -1,6 +1,7 @@
 numpy
 scipy
 pandas
+urllib3==1.25
 requests
 tqdm
 flask
